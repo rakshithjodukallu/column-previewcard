@@ -1,0 +1,113 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 15px;
+    background-color: #fff;
+}
+
+.card-flex{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+}
+
+.card-deck .card{
+    margin: 0;
+}
+
+.card{
+    border: none;
+    border-radius: 0px;
+    padding: 30px 10px;
+}
+
+.card-bg1{
+    background-color: #e28525;
+    border-radius: 14px 0 0 14px;
+}
+
+.card-bg2{
+    background-color: #016972;
+}
+
+.card-bg3{
+    background-color: #00403f;
+    border-radius: 0 14px 14px 0;
+
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    color: #fff;
+    margin: 20px 0px;
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    padding: 0 0 20px;
+}
+
+.card-link1{
+    color: #e28525;
+    padding: 5px 20px;
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.card-link2{
+    color: #016972;
+    padding: 5px 20px;
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.card-link3{
+    color: #00403f;
+    padding: 5px 20px;
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .card-flex{
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        margin: auto;
+    }
+  }
+
+  @media only screen and (max-width: 575px) {
+    .card-bg1{
+        background-color: #e28525;
+        border-radius: 14px 14px 0 0;
+    }
+    
+    .card-bg2{
+        background-color: #016972;
+    }
+    
+    .card-bg3{
+        background-color: #00403f;
+        border-radius: 0  0 14px 14px;
+    
+    }
+  }
